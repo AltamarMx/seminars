@@ -1,5 +1,5 @@
 
-#import yaml
+import yaml
 from random import gauss
 import numpy as np
 
@@ -37,7 +37,7 @@ def read_pressure_volume_02():
 
 #lenin define funcion para leer presion
 def lee_presion():
-    presion = 0
+    presion,_,_ = read_pressure_volume_02()
     return presion
 
 def init_graph(p1,p2,p3):

@@ -1,4 +1,4 @@
-#import yaml
+import yaml
 from dar import *
 import datetime as dt
 import threading
@@ -21,12 +21,11 @@ import pyqtgraph as pg
 #PEEP = Positive ending exhalatory pressure [mbar]
 #MIP  = Maximum inspiratory pressure [mbar]
 #O2   = Oxigen percentage  [%]
-#RR, IT, PEEP, MIP, O2 = lee('config.yaml')
-RR = 12
-IT = 2
-PEEP = 8.5
-MIP = 40
-O2 = 80
+RR, IT, PEEP, MIP, O2 = lee('config.yaml')
+
+
+
+
 
 
 
