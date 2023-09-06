@@ -1,0 +1,42 @@
+{
+   "created_at" : "20230831T211551Z",
+   "seed_file" : "../230813_EF_2_a0p2.osm",
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "key_value" : "Bedroom",
+            "reporting_frequency" : "timestep",
+            "variable_name" : "Zone Mean Air Temperature"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "AddOutputVariable 1 1 1 1",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Zone Mean Air Temperature"
+      },
+      {
+         "arguments" : 
+         {
+            "reporting_frequency" : "timestep",
+            "variable_name" : "Zone Air System Sensible Cooling Energy"
+         },
+         "description" : "This measure adds an output variable at the requested reporting frequency.",
+         "measure_dir_name" : "AddOutputVariable 1 1 1 1",
+         "modeler_description" : "The measure just passes in the string and does not validate that it is a proper variable name. It is up to the user to know this or to look at the .rdd file from a previous simulation run.",
+         "name" : "Zone Air System Sensible Cooling Energy"
+      },
+      {
+         "arguments" : 
+         {
+            "reporting_frequency" : "Zone Timestep"
+         },
+         "description" : "Create CSV output for output variables in SQL file",
+         "measure_dir_name" : "CreateCSVOutput 1 1",
+         "modeler_description" : "Create CSV output for output variables in SQL file",
+         "name" : "Resultados"
+      }
+   ],
+   "updated_at" : "20230906T021739Z",
+   "weather_file" : "MEX_MOR_Cuernavaca-Matamoros.Intl.AP.767260_TMYx.epw"
+}

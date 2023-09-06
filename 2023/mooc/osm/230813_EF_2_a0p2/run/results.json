@@ -1,0 +1,18 @@
+{
+  "Zone Mean Air Temperature": {
+    "variable_name": "Zone Mean Air Temperature",
+    "reporting_frequency": "timestep",
+    "key_value": "Bedroom",
+    "applicable": true
+  },
+  "Zone Air System Sensible Cooling Energy": {
+    "variable_name": "Zone Air System Sensible Cooling Energy",
+    "reporting_frequency": "timestep",
+    "key_value": "*",
+    "applicable": true
+  },
+  "Resultados": {
+    "reporting_frequency": "Zone Timestep",
+    "applicable": true
+  }
+}

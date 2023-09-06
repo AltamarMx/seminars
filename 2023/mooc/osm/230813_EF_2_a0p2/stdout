@@ -1,0 +1,22 @@
+****************************
+Variable Name = DistrictCooling:Facility
+Key = 
+****************************
+Variable Name = DistrictHeating:Facility
+Key = 
+****************************
+Variable Name = Electricity:Facility
+Key = 
+****************************
+Variable Name = Zone Air System Sensible Cooling Energy
+Key = BEDROOM
+Key = MAINBEDROOM
+Key = THERMAL ZONE: ACCESO
+Key = THERMAL ZONE: A_COMUN
+Key = THERMAL ZONE: BAÑO
+Key = THERMAL ZONE: BAÑO_PA
+Key = THERMAL ZONE: ESC_DA
+Key = THERMAL ZONE: REC3
+****************************
+Variable Name = Zone Mean Air Temperature
+Key = BEDROOM

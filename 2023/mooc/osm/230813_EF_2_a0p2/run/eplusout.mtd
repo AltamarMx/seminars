@@ -1,0 +1,598 @@
+
+ Meters for 11,ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: A_COMUN [J]
+  OnMeter=Electricity:SpaceType:189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: A_COMUN [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:THERMAL ZONE: A_COMUN [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 [J]
+
+ Meters for 132,ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:THERMAL ZONE: REC3 [J]
+  OnMeter=Electricity:SpaceType:189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 [J]
+  OnMeter=InteriorEquipment:Electricity [J]
+  OnMeter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: REC3 [J]
+  OnMeter=InteriorEquipment:Electricity:SpaceType:189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 [J]
+  OnMeter=General:InteriorEquipment:Electricity [J]
+  OnMeter=General:InteriorEquipment:Electricity:Zone:THERMAL ZONE: REC3 [J]
+  OnMeter=General:InteriorEquipment:Electricity:SpaceType:189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 [J]
+
+ Meters for 170,BEDROOM:Zone Ventilation Fan Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:BEDROOM [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=Fans:Electricity:Zone:BEDROOM [J]
+  OnMeter=Ventilation (simple):Fans:Electricity [J]
+  OnMeter=Ventilation (simple):Fans:Electricity:Zone:BEDROOM [J]
+
+ Meters for 231,MAINBEDROOM:Zone Ventilation Fan Electricity Energy [J]
+  OnMeter=Electricity:Facility [J]
+  OnMeter=Electricity:Building [J]
+  OnMeter=Electricity:Zone:MAINBEDROOM [J]
+  OnMeter=Fans:Electricity [J]
+  OnMeter=Fans:Electricity:Zone:MAINBEDROOM [J]
+  OnMeter=Ventilation (simple):Fans:Electricity [J]
+  OnMeter=Ventilation (simple):Fans:Electricity:Zone:MAINBEDROOM [J]
+
+ Meters for 268,BEDROOM:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BEDROOM [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:BEDROOM [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:BEDROOM [J]
+
+ Meters for 353,BEDROOM:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:BEDROOM [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:BEDROOM [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:BEDROOM [J]
+
+ Meters for 402,MAINBEDROOM:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MAINBEDROOM [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:MAINBEDROOM [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:MAINBEDROOM [J]
+
+ Meters for 439,MAINBEDROOM:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:MAINBEDROOM [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:MAINBEDROOM [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:MAINBEDROOM [J]
+
+ Meters for 464,THERMAL ZONE: ACCESO:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: ACCESO [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:THERMAL ZONE: ACCESO [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:THERMAL ZONE: ACCESO [J]
+
+ Meters for 501,THERMAL ZONE: ACCESO:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: ACCESO [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: ACCESO [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:THERMAL ZONE: ACCESO [J]
+
+ Meters for 526,THERMAL ZONE: A_COMUN:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: A_COMUN [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:THERMAL ZONE: A_COMUN [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:THERMAL ZONE: A_COMUN [J]
+
+ Meters for 563,THERMAL ZONE: A_COMUN:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: A_COMUN [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: A_COMUN [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:THERMAL ZONE: A_COMUN [J]
+
+ Meters for 588,THERMAL ZONE: BAÑO:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: BAÑO [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:THERMAL ZONE: BAÑO [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:THERMAL ZONE: BAÑO [J]
+
+ Meters for 625,THERMAL ZONE: BAÑO:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: BAÑO [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: BAÑO [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:THERMAL ZONE: BAÑO [J]
+
+ Meters for 650,THERMAL ZONE: BAÑO_PA:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: BAÑO_PA [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:THERMAL ZONE: BAÑO_PA [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:THERMAL ZONE: BAÑO_PA [J]
+
+ Meters for 687,THERMAL ZONE: BAÑO_PA:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: BAÑO_PA [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: BAÑO_PA [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:THERMAL ZONE: BAÑO_PA [J]
+
+ Meters for 712,THERMAL ZONE: ESC_DA:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: ESC_DA [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:THERMAL ZONE: ESC_DA [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:THERMAL ZONE: ESC_DA [J]
+
+ Meters for 749,THERMAL ZONE: ESC_DA:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: ESC_DA [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: ESC_DA [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:THERMAL ZONE: ESC_DA [J]
+
+ Meters for 774,THERMAL ZONE: REC3:Zone Air System Sensible Heating Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: REC3 [J]
+  OnMeter=Heating:EnergyTransfer [J]
+  OnMeter=Heating:EnergyTransfer:Zone:THERMAL ZONE: REC3 [J]
+  OnMeter=General:Heating:EnergyTransfer [J]
+  OnMeter=General:Heating:EnergyTransfer:Zone:THERMAL ZONE: REC3 [J]
+
+ Meters for 811,THERMAL ZONE: REC3:Zone Air System Sensible Cooling Energy [J]
+  OnMeter=EnergyTransfer:Facility [J]
+  OnMeter=EnergyTransfer:Building [J]
+  OnMeter=EnergyTransfer:Zone:THERMAL ZONE: REC3 [J]
+  OnMeter=Cooling:EnergyTransfer [J]
+  OnMeter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: REC3 [J]
+  OnMeter=General:Cooling:EnergyTransfer [J]
+  OnMeter=General:Cooling:EnergyTransfer:Zone:THERMAL ZONE: REC3 [J]
+
+ Meters for 836,BEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+  OnMeter=General:Heating:DistrictHeating [J]
+
+ Meters for 885,BEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 934,MAINBEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy [J]
+  OnMeter=DistrictHeating:Facility [J]
+  OnMeter=DistrictHeating:HVAC [J]
+  OnMeter=Heating:DistrictHeating [J]
+  OnMeter=General:Heating:DistrictHeating [J]
+
+ Meters for 935,MAINBEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy [J]
+  OnMeter=DistrictCooling:Facility [J]
+  OnMeter=DistrictCooling:HVAC [J]
+  OnMeter=Cooling:DistrictCooling [J]
+  OnMeter=General:Cooling:DistrictCooling [J]
+
+ Meters for 936,Whole Building:Facility Total Purchased Electricity Energy [J]
+  OnMeter=ElectricityPurchased:Facility [J]
+  OnMeter=ElectricityPurchased:Plant [J]
+  OnMeter=Cogeneration:ElectricityPurchased [J]
+  OnMeter=General:Cogeneration:ElectricityPurchased [J]
+
+ Meters for 985,Whole Building:Facility Total Surplus Electricity Energy [J]
+  OnMeter=ElectricitySurplusSold:Facility [J]
+  OnMeter=ElectricitySurplusSold:Plant [J]
+  OnMeter=Cogeneration:ElectricitySurplusSold [J]
+  OnMeter=General:Cogeneration:ElectricitySurplusSold [J]
+
+ Meters for 1034,Whole Building:Facility Net Purchased Electricity Energy [J]
+  OnMeter=ElectricityNet:Facility [J]
+  OnMeter=ElectricityNet:Plant [J]
+  OnMeter=Cogeneration:ElectricityNet [J]
+  OnMeter=General:Cogeneration:ElectricityNet [J]
+
+ Meters for 1083,Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1108,Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ Meters for 1109,Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass [kg]
+  OnMeter=Carbon Equivalent:Facility [kg]
+  OnMeter=CarbonEquivalentEmissions:Carbon Equivalent [kg]
+
+ For Meter=Electricity:Facility [J], ResourceType=Electricity, contents are:
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  BEDROOM:Zone Ventilation Fan Electricity Energy
+  MAINBEDROOM:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Electricity:Building [J], ResourceType=Electricity, Group=Building, contents are:
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+  BEDROOM:Zone Ventilation Fan Electricity Energy
+  MAINBEDROOM:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Electricity:Zone:THERMAL ZONE: A_COMUN [J], ResourceType=Electricity, Group=Zone, contents are:
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+
+ For Meter=Electricity:SpaceType:189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 [J], ResourceType=Electricity, Group=SpaceType, contents are:
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: A_COMUN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:SpaceType:189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity [J], ResourceType=Electricity, EndUse=InteriorEquipment, contents are:
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:THERMAL ZONE: A_COMUN [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:SpaceType:189.1-2009 - OFFICE - OPENOFFICE - CZ4-8 [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=SpaceType, contents are:
+  ELECTRIC EQUIPMENT 1:Electric Equipment Electricity Energy
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+
+ For Meter=Electricity:Zone:THERMAL ZONE: REC3 [J], ResourceType=Electricity, Group=Zone, contents are:
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+
+ For Meter=InteriorEquipment:Electricity:Zone:THERMAL ZONE: REC3 [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+
+ For Meter=General:InteriorEquipment:Electricity:Zone:THERMAL ZONE: REC3 [J], ResourceType=Electricity, EndUse=InteriorEquipment, Group=Zone, contents are:
+  ELECTRIC EQUIPMENT 2:Electric Equipment Electricity Energy
+
+ For Meter=Electricity:Zone:BEDROOM [J], ResourceType=Electricity, Group=Zone, contents are:
+  BEDROOM:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  BEDROOM:Zone Ventilation Fan Electricity Energy
+  MAINBEDROOM:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Fans:Electricity:Zone:BEDROOM [J], ResourceType=Electricity, EndUse=Fans, Group=Zone, contents are:
+  BEDROOM:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Ventilation (simple):Fans:Electricity [J], ResourceType=Electricity, EndUse=Fans, contents are:
+  BEDROOM:Zone Ventilation Fan Electricity Energy
+  MAINBEDROOM:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Ventilation (simple):Fans:Electricity:Zone:BEDROOM [J], ResourceType=Electricity, EndUse=Fans, Group=Zone, contents are:
+  BEDROOM:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Electricity:Zone:MAINBEDROOM [J], ResourceType=Electricity, Group=Zone, contents are:
+  MAINBEDROOM:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Fans:Electricity:Zone:MAINBEDROOM [J], ResourceType=Electricity, EndUse=Fans, Group=Zone, contents are:
+  MAINBEDROOM:Zone Ventilation Fan Electricity Energy
+
+ For Meter=Ventilation (simple):Fans:Electricity:Zone:MAINBEDROOM [J], ResourceType=Electricity, EndUse=Fans, Group=Zone, contents are:
+  MAINBEDROOM:Zone Ventilation Fan Electricity Energy
+
+ For Meter=EnergyTransfer:Facility [J], ResourceType=EnergyTransfer, contents are:
+  BEDROOM:Zone Air System Sensible Heating Energy
+  BEDROOM:Zone Air System Sensible Cooling Energy
+  MAINBEDROOM:Zone Air System Sensible Heating Energy
+  MAINBEDROOM:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: ACCESO:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: ACCESO:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: A_COMUN:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: A_COMUN:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: BAÑO:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: BAÑO:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: BAÑO_PA:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: BAÑO_PA:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: ESC_DA:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: ESC_DA:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: REC3:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: REC3:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Building [J], ResourceType=EnergyTransfer, Group=Building, contents are:
+  BEDROOM:Zone Air System Sensible Heating Energy
+  BEDROOM:Zone Air System Sensible Cooling Energy
+  MAINBEDROOM:Zone Air System Sensible Heating Energy
+  MAINBEDROOM:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: ACCESO:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: ACCESO:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: A_COMUN:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: A_COMUN:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: BAÑO:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: BAÑO:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: BAÑO_PA:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: BAÑO_PA:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: ESC_DA:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: ESC_DA:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: REC3:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: REC3:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:BEDROOM [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  BEDROOM:Zone Air System Sensible Heating Energy
+  BEDROOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  BEDROOM:Zone Air System Sensible Heating Energy
+  MAINBEDROOM:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: ACCESO:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: A_COMUN:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: BAÑO:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: BAÑO_PA:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: ESC_DA:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: REC3:Zone Air System Sensible Heating Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:BEDROOM [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BEDROOM:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Heating, contents are:
+  BEDROOM:Zone Air System Sensible Heating Energy
+  MAINBEDROOM:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: ACCESO:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: A_COMUN:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: BAÑO:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: BAÑO_PA:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: ESC_DA:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: REC3:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:BEDROOM [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  BEDROOM:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  BEDROOM:Zone Air System Sensible Cooling Energy
+  MAINBEDROOM:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: ACCESO:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: A_COMUN:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: BAÑO:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: BAÑO_PA:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: ESC_DA:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: REC3:Zone Air System Sensible Cooling Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:BEDROOM [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BEDROOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer [J], ResourceType=EnergyTransfer, EndUse=Cooling, contents are:
+  BEDROOM:Zone Air System Sensible Cooling Energy
+  MAINBEDROOM:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: ACCESO:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: A_COMUN:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: BAÑO:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: BAÑO_PA:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: ESC_DA:Zone Air System Sensible Cooling Energy
+  THERMAL ZONE: REC3:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:BEDROOM [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  BEDROOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:MAINBEDROOM [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  MAINBEDROOM:Zone Air System Sensible Heating Energy
+  MAINBEDROOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:MAINBEDROOM [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MAINBEDROOM:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:MAINBEDROOM [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  MAINBEDROOM:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:MAINBEDROOM [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MAINBEDROOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:MAINBEDROOM [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  MAINBEDROOM:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:THERMAL ZONE: ACCESO [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  THERMAL ZONE: ACCESO:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: ACCESO:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:THERMAL ZONE: ACCESO [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: ACCESO:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:THERMAL ZONE: ACCESO [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: ACCESO:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: ACCESO [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: ACCESO:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:THERMAL ZONE: ACCESO [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: ACCESO:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:THERMAL ZONE: A_COMUN [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  THERMAL ZONE: A_COMUN:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: A_COMUN:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:THERMAL ZONE: A_COMUN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: A_COMUN:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:THERMAL ZONE: A_COMUN [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: A_COMUN:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: A_COMUN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: A_COMUN:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:THERMAL ZONE: A_COMUN [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: A_COMUN:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:THERMAL ZONE: BAÑO [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  THERMAL ZONE: BAÑO:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: BAÑO:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:THERMAL ZONE: BAÑO [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: BAÑO:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:THERMAL ZONE: BAÑO [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: BAÑO:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: BAÑO [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: BAÑO:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:THERMAL ZONE: BAÑO [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: BAÑO:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:THERMAL ZONE: BAÑO_PA [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  THERMAL ZONE: BAÑO_PA:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: BAÑO_PA:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:THERMAL ZONE: BAÑO_PA [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: BAÑO_PA:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:THERMAL ZONE: BAÑO_PA [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: BAÑO_PA:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: BAÑO_PA [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: BAÑO_PA:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:THERMAL ZONE: BAÑO_PA [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: BAÑO_PA:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:THERMAL ZONE: ESC_DA [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  THERMAL ZONE: ESC_DA:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: ESC_DA:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:THERMAL ZONE: ESC_DA [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: ESC_DA:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:THERMAL ZONE: ESC_DA [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: ESC_DA:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: ESC_DA [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: ESC_DA:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:THERMAL ZONE: ESC_DA [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: ESC_DA:Zone Air System Sensible Cooling Energy
+
+ For Meter=EnergyTransfer:Zone:THERMAL ZONE: REC3 [J], ResourceType=EnergyTransfer, Group=Zone, contents are:
+  THERMAL ZONE: REC3:Zone Air System Sensible Heating Energy
+  THERMAL ZONE: REC3:Zone Air System Sensible Cooling Energy
+
+ For Meter=Heating:EnergyTransfer:Zone:THERMAL ZONE: REC3 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: REC3:Zone Air System Sensible Heating Energy
+
+ For Meter=General:Heating:EnergyTransfer:Zone:THERMAL ZONE: REC3 [J], ResourceType=EnergyTransfer, EndUse=Heating, Group=Zone, contents are:
+  THERMAL ZONE: REC3:Zone Air System Sensible Heating Energy
+
+ For Meter=Cooling:EnergyTransfer:Zone:THERMAL ZONE: REC3 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: REC3:Zone Air System Sensible Cooling Energy
+
+ For Meter=General:Cooling:EnergyTransfer:Zone:THERMAL ZONE: REC3 [J], ResourceType=EnergyTransfer, EndUse=Cooling, Group=Zone, contents are:
+  THERMAL ZONE: REC3:Zone Air System Sensible Cooling Energy
+
+ For Meter=DistrictHeating:Facility [J], ResourceType=DistrictHeating, contents are:
+  BEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  MAINBEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictHeating:HVAC [J], ResourceType=DistrictHeating, Group=HVAC, contents are:
+  BEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  MAINBEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  BEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  MAINBEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=General:Heating:DistrictHeating [J], ResourceType=DistrictHeating, EndUse=Heating, contents are:
+  BEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+  MAINBEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Heating Energy
+
+ For Meter=DistrictCooling:Facility [J], ResourceType=DistrictCooling, contents are:
+  BEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  MAINBEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=DistrictCooling:HVAC [J], ResourceType=DistrictCooling, Group=HVAC, contents are:
+  BEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  MAINBEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  BEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  MAINBEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=General:Cooling:DistrictCooling [J], ResourceType=DistrictCooling, EndUse=Cooling, contents are:
+  BEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+  MAINBEDROOM IDEAL LOADS AIR SYSTEM:Zone Ideal Loads Supply Air Total Cooling Energy
+
+ For Meter=ElectricityPurchased:Facility [J], ResourceType=ElectricityPurchased, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=ElectricityPurchased:Plant [J], ResourceType=ElectricityPurchased, Group=Plant, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricityPurchased [J], ResourceType=ElectricityPurchased, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Purchased Electricity Energy
+
+ For Meter=ElectricitySurplusSold:Facility [J], ResourceType=ElectricitySurplusSold, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=ElectricitySurplusSold:Plant [J], ResourceType=ElectricitySurplusSold, Group=Plant, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricitySurplusSold [J], ResourceType=ElectricitySurplusSold, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Total Surplus Electricity Energy
+
+ For Meter=ElectricityNet:Facility [J], ResourceType=ElectricityNet, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=ElectricityNet:Plant [J], ResourceType=ElectricityNet, Group=Plant, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=General:Cogeneration:ElectricityNet [J], ResourceType=ElectricityNet, EndUse=Cogeneration, contents are:
+  Whole Building:Facility Net Purchased Electricity Energy
+
+ For Meter=Carbon Equivalent:Facility [kg], ResourceType=Carbon Equivalent, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
+
+ For Meter=CarbonEquivalentEmissions:Carbon Equivalent [kg], ResourceType=Carbon Equivalent, EndUse=CarbonEquivalentEmissions, contents are:
+  Site:Environmental Impact Total N2O Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CH4 Emissions Carbon Equivalent Mass
+  Site:Environmental Impact Total CO2 Emissions Carbon Equivalent Mass
