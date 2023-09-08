@@ -1,0 +1,109 @@
+---
+title: "Quarto:"
+subtitle: "Desafiando el dominio del PDF y $$\LaTeX$$ <br>Guillermo Barrios <br> UNAM, México."
+format:
+ revealjs:
+   slide-number: true
+   chalkboard:
+     buttons: false
+   theme: blood
+   preview-links: auto
+   logo: images/logo_ier.png
+   footer: <https://altamarmx.github.io>
+resources:
+ - demo.pdf
+---
+
+
+
+## Teaching
+
+<br/>
+<br/>
+<br/>
+
+ ![](images/ier.jpg){.absolute top="150" left="550" height="340" }
+
+Numerical heat transfer
+
+Building Energy Modeling
+
+Data analysis for buildings
+
+
+
+
+
+## 
+
+> **Accuracy** concerns whether the answer is right or wrong based on the input.
+
+![](images/accuracy.jpeg)
+
+
+##  
+> **Hallucination** concerns the introduction of unrelated or nonsensical information that wasn't present or implied in the input.
+
+![](images/hallucination.jpeg)
+<!-- 
+## Hallucination & Accuracy
+
+![](images/accuracy_hallucination.png)
+
+ 
+::: footer
+[Performance of ChatGPT, GPT-4, and Google Bard on a Neurosurgery Oral Boards Preparation Question Bank](https://www.medrxiv.org/content/10.1101/2023.04.06.23288265v1#:~:text=GPT-4%E2%80%99s%20performance%20on%20imaging-related%20questions%20surpassed%20GPT-3.5%E2%80%99s%20%2868.6%25,%3C0.001%29%20and%20Bard%20%282.3%25%20vs.%2027.3%25%2C%20P%20%3D0.002%29.)
+::: -->
+
+
+##  Accuracy & Hallucination
+
+![](images/accuracy_hallucination_horizontal.png)
+
+ 
+::: footer
+[Performance of ChatGPT, GPT-4, and Google Bard on a Neurosurgery Oral Boards Preparation Question Bank](https://www.medrxiv.org/content/10.1101/2023.04.06.23288265v1#:~:text=GPT-4%E2%80%99s%20performance%20on%20imaging-related%20questions%20surpassed%20GPT-3.5%E2%80%99s%20%2868.6%25,%3C0.001%29%20and%20Bard%20%282.3%25%20vs.%2027.3%25%2C%20P%20%3D0.002%29.)
+:::
+
+<!-- 
+## Few undergrads pay  GPT-4 
+
+
+![](images/gpt-load-data.jpeg)
+ -->
+
+## Teachers
+
+
+* Continuos learning
+
+
+
+* Incentivize the detection of errors and hallucinations in LLMs
+<!-- * AI as a tool -->
+
+* AI serves pedagogical objectives and not the other way 
+
+
+* Consider the use of free or open alternatives
+
+
+## Students
+
+* Learn new technologies 
+
+* Avoid dependency
+
+* Communication skills for AI-based systems
+
+* Privacy and ethics
+ 
+* Critical thinking
+
+
+## To Code or to GPT ?
+<br>
+In the age of AI, as we stand on the cusp of remarkable technological advancements, it's imperative that we both program and utilize tools like GPT with a discerning eye. 
+<br>
+<br>
+We must be critically aware of their capabilities, embrace their strengths, and cautiously navigate their limitations. Let's not be mere passive users; let's be conscious architects of our digital future, ensuring AI serves humanity's best interests.
