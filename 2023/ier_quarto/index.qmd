@@ -356,7 +356,7 @@ Bueno, en realidad
 :::
 
 
-
+ 
 ## Presentacion disponible
  
 
@@ -366,9 +366,7 @@ Bueno, en realidad
 ## ¿Quieres aprender Quarto?  
 
 
-![](images/pregunta_quarto.png){fig-align="center" width=100%}
-
-
+![](images/pregunta_quarto.png){fig-align="center" width=60%}
 
 
 
