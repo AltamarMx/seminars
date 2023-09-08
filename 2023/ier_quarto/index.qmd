@@ -9,7 +9,8 @@ format:
    theme: simple
    preview-links: true
    logo: images/logo_ier.png
-   footer: <https://altamarmx.github.io>
+lang: es   
+
 ---
 
 ## Quarto
@@ -21,7 +22,7 @@ Sistema de publicación científico y técnico
 ::: {.column width="50%"}
 - Código abierto
 - Texto plano, Jupyter notebooks o markdown
-- Python, R, Julia, Observable.
+- Python, R, Julia, Observable
 :::
 
 ::: {.column width="50%"}
@@ -83,6 +84,8 @@ a_{21}& =b_{21}&
 
 ## Texto plano
 
+<br>
+<br>
 
 ::: columns
 ::: {.column width="40%"}
@@ -131,8 +134,12 @@ data = osm.data
 [Code Animations](https://quarto.org/docs/presentations/revealjs/advanced.html#code-animations)
 :::
 
-### Interacciones
-```{python}
+
+
+## Interacciones con mapas
+
+```{python} 
+#| echo: false
 from ipyleaflet import Map, Marker, basemaps, basemap_to_tiles
 m = Map(
   basemap=basemap_to_tiles(
@@ -145,88 +152,149 @@ m.add_layer(Marker(location=(52.204793, 360.121558)))
 m
 ```
 
+::: footer
+ipyleaflet
+:::
+
+
+
+## Código ejecutable en Python
+Una gráfica se vería como en la  @fig-polar.
+
+```{python}
+#| label: fig-polar
+#| fig-cap: "Gráfica polar"
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(
+  subplot_kw = {'projection': 'polar'} 
+)
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+## PDF
+
+![](images/tesis_eros.png){.border width="800"}
+
+
+## PDF 
+
+![](images/figura_eros.png){.border width="800"}
+
+
+
+
+## PDF
+
+![](images/paginas.png){.border width="900"}
+
+
+
+## PDF 
+
+![](images/celular.jpeg){fig-align="center" width=35%}
+
 
 ## PDF y $\\LaTeX$
 
+![](images/pdf_celular.PNG){fig-align="center" width=25%}
 
 
+## $\\LaTeX$ es perfecto...
+<br>
 
- ![](images/ier.jpg){.absolute top="150" left="550" height="340" }
+No eres tú, soy yo...
 
-::: {.fragment .fade-in}
-Energy in building simulations
-:::
-
-::: {.fragment .fade-in}
-Numerical heat transfer
-:::
-
-::: {.fragment .fade-in}
-::: {.fragment .highlight-red }
-Data analysis for buildings
-:::
-:::
-
-
-<!-- 
-## Open Source LLM {auto-animate="true"}
-
-![](images/configuration.jpg)
-
-::: {.fragment .fade-in}
-- LLM's open-source setup is complex and hard to access
-:::
-
-::: {.fragment .fade-in}
-- Most student will use free web-based LLM 
-:::  -->
-
-<!-- 
-::: {.fragment .fade-in}
-- Prompt engineering trainning 
-:::  -->
-
-## Hallucination & Accuracy
-
-> **Accuracy** concerns whether the answer is right or wrong based on the input.
-<br/>
-<br/>
-
-
-> **Hallucination** concerns the introduction of unrelated or nonsensical information that wasn't present or implied in the input.
-
-
-## Hallucination & Accuracy
-
-![](images/accuracy_hallucination.png)
-
- 
-::: footer
-[Performance of ChatGPT, GPT-4, and Google Bard on a Neurosurgery Oral Boards Preparation Question Bank](https://www.medrxiv.org/content/10.1101/2023.04.06.23288265v1#:~:text=GPT-4%E2%80%99s%20performance%20on%20imaging-related%20questions%20surpassed%20GPT-3.5%E2%80%99s%20%2868.6%25,%3C0.001%29%20and%20Bard%20%282.3%25%20vs.%2027.3%25%2C%20P%20%3D0.002%29.)
-:::
-## Hallucination & Accuracy
-
-![](images/accuracy_hallucination_horizontal.png)
-
- 
-::: footer
-[Performance of ChatGPT, GPT-4, and Google Bard on a Neurosurgery Oral Boards Preparation Question Bank](https://www.medrxiv.org/content/10.1101/2023.04.06.23288265v1#:~:text=GPT-4%E2%80%99s%20performance%20on%20imaging-related%20questions%20surpassed%20GPT-3.5%E2%80%99s%20%2868.6%25,%3C0.001%29%20and%20Bard%20%282.3%25%20vs.%2027.3%25%2C%20P%20%3D0.002%29.)
+::: incremental
+- Es la vida digital
+- Es que uso Jupyter notebook
+- Actualizar figuras es un martirio
+- Mi tutorx quiere el documento en doc
+- Navegar PDFs es una tortura
+- Overleaf es lento y propicia que no aprenda
 :::
 
 
-## Few undergrads pay  GPT-4 {auto-animate="true"}
 
+## $\\LaTeX$ es **casi** perfecto...
+<br>
+<br>
+Bueno, en realidad
 
-![](images/gpt-load-data.jpeg)
-
-
-## Teachers & Students {auto-animate="true"}
-
-
-::: {.fragment .fade-in}
-- Learn to verify information from LLM
+::: incremental
+- Si eres un poquito complicade
 :::
 
-::: {.fragment .fade-in}
-- Most student will use free web-based LLM 
-::: 
+
+## Caso: Python for Data Analysis
+
+
+![](images/python_book.png){fig-align="center" width=70%}
+
+:::footer 
+[Libro](https://wesmckinney.com/book/)
+
+:::
+
+
+
+## Caso: Artículos
+
+
+![](images/quarto_journals.png){fig-align="center" width=90%}
+
+## Caso: Artículos
+
+
+![](images/journals_list){fig-align="center" width=90%}
+
+
+## Caso: Elsevier  
+
+
+![](images/elsevier){fig-align="center" width=90%}
+
+:::footer
+[Liga](https://quarto-journals.github.io/elsevier/)
+:::
+
+
+## Caso: Tesis/Artículos  
+
+
+![](images/estudiantes.png){fig-align="center" width=90%}
+
+:::footer
+[Liga](https://altamarmx.github.io/estudiantes/)
+:::
+
+
+## Caso: Epub  
+
+
+![](images/epub.png){fig-align="center" width=90%}
+
+:::footer
+[Epub](https://quarto.org/docs/reference/formats/epub.html)
+:::
+
+
+## Conclusiones
+
+
+::: incremental
+- Es la vida digital
+- Es que uso Jupyter notebook
+- Actualizar figuras es un martirio
+- Mi tutorx quiere el documento en doc
+- Navegar PDFs es una tortura
+- Overleaf es lento y propicia que no aprenda
+:::
+
