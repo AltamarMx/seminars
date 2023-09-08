@@ -1,0 +1,232 @@
+---
+title: "Quarto"
+subtitle: "Desafiando el dominio del PDF y $\\LaTeX$"
+format:
+ revealjs:
+   slide-number: true
+   chalkboard:
+     buttons: false
+   theme: simple
+   preview-links: true
+   logo: images/logo_ier.png
+   footer: <https://altamarmx.github.io>
+---
+
+## Quarto
+
+Sistema de publicación científico y técnico
+
+::: incremental
+::: columns
+::: {.column width="50%"}
+- Código abierto
+- Texto plano, Jupyter notebooks o markdown
+- Python, R, Julia, Observable.
+:::
+
+::: {.column width="50%"}
+- HTML, PDF, Word, ePub, ...
+- Ecuaciones, citas, referencias, plantillas
+- Pandoc
+:::
+:::
+:::
+
+## Ecuaciones  $\\LaTeX$
+
+[MathJax](https://www.mathjax.org/) ecuaciones en HTML
+
+::: columns
+::: {.column width="40%"}
+``` tex
+\begin{gather*}
+a_1=b_1+c_1\\
+a_2=b_2+c_2-d_2+e_2
+\end{gather*}
+
+\begin{align}
+a_{11}& =b_{11}&
+  a_{12}& =b_{12}\\
+a_{21}& =b_{21}&
+  a_{22}& =b_{22}+c_{22}
+\end{align}
+```
+:::
+
+::: {.column width="60%"}
+```{=tex}
+\begin{gather*}
+a_1=b_1+c_1\\
+a_2=b_2+c_2-d_2+e_2
+\end{gather*}
+```
+```{=tex}
+\begin{align}
+a_{11}& =b_{11}&
+  a_{12}& =b_{12}\\
+a_{21}& =b_{21}&
+  a_{22}& =b_{22}+c_{22}
+\end{align}
+```
+:::
+:::
+
+
+## Ventajas
+
+::: incremental
+- Reproducible y colaborativa
+- Facilita integrar código, datos, figuras
+- Narrativa computacional
+:::
+
+
+## Texto plano
+
+
+::: columns
+::: {.column width="40%"}
+``` 
+### Texto plano
+
+::: incremental
+- Se puede hacer esto
+- Y esto 
+- $c^2 = a^2 + b^2$
+:::
+
+```
+:::
+
+::: {.column width="60%"}
+::: incremental
+- Se puede hacer esto
+- Y esto 
+- $c^2 = a^2 + b^2$
+:::
+:::
+:::
+ 
+
+
+## Código & Animaciones {auto-animate="true"}
+<br>
+<br>
+``` {.python code-line-numbers="1-2|4-7|9-12"}
+# Instala el paquete 
+pip install git+https://github.com/AltamarMx/iertools.git
+
+# Carga los paquetes
+import pandas as pd
+import matplotlib.pyplot as plt
+from iertools.read import read_sql
+
+#Usalo
+f = 'eplusout.sql'
+osm  = read_sql(f)
+data = osm.data
+```
+
+::: footer
+[Code Animations](https://quarto.org/docs/presentations/revealjs/advanced.html#code-animations)
+:::
+
+### Interacciones
+```{python}
+from ipyleaflet import Map, Marker, basemaps, basemap_to_tiles
+m = Map(
+  basemap=basemap_to_tiles(
+    basemaps.NASAGIBS.ModisTerraTrueColorCR, "2017-04-08"
+  ),
+  center=(52.204793, 360.121558),
+  zoom=4
+)
+m.add_layer(Marker(location=(52.204793, 360.121558)))
+m
+```
+
+
+## PDF y $\\LaTeX$
+
+
+
+
+ ![](images/ier.jpg){.absolute top="150" left="550" height="340" }
+
+::: {.fragment .fade-in}
+Energy in building simulations
+:::
+
+::: {.fragment .fade-in}
+Numerical heat transfer
+:::
+
+::: {.fragment .fade-in}
+::: {.fragment .highlight-red }
+Data analysis for buildings
+:::
+:::
+
+
+<!-- 
+## Open Source LLM {auto-animate="true"}
+
+![](images/configuration.jpg)
+
+::: {.fragment .fade-in}
+- LLM's open-source setup is complex and hard to access
+:::
+
+::: {.fragment .fade-in}
+- Most student will use free web-based LLM 
+:::  -->
+
+<!-- 
+::: {.fragment .fade-in}
+- Prompt engineering trainning 
+:::  -->
+
+## Hallucination & Accuracy
+
+> **Accuracy** concerns whether the answer is right or wrong based on the input.
+<br/>
+<br/>
+
+
+> **Hallucination** concerns the introduction of unrelated or nonsensical information that wasn't present or implied in the input.
+
+
+## Hallucination & Accuracy
+
+![](images/accuracy_hallucination.png)
+
+ 
+::: footer
+[Performance of ChatGPT, GPT-4, and Google Bard on a Neurosurgery Oral Boards Preparation Question Bank](https://www.medrxiv.org/content/10.1101/2023.04.06.23288265v1#:~:text=GPT-4%E2%80%99s%20performance%20on%20imaging-related%20questions%20surpassed%20GPT-3.5%E2%80%99s%20%2868.6%25,%3C0.001%29%20and%20Bard%20%282.3%25%20vs.%2027.3%25%2C%20P%20%3D0.002%29.)
+:::
+## Hallucination & Accuracy
+
+![](images/accuracy_hallucination_horizontal.png)
+
+ 
+::: footer
+[Performance of ChatGPT, GPT-4, and Google Bard on a Neurosurgery Oral Boards Preparation Question Bank](https://www.medrxiv.org/content/10.1101/2023.04.06.23288265v1#:~:text=GPT-4%E2%80%99s%20performance%20on%20imaging-related%20questions%20surpassed%20GPT-3.5%E2%80%99s%20%2868.6%25,%3C0.001%29%20and%20Bard%20%282.3%25%20vs.%2027.3%25%2C%20P%20%3D0.002%29.)
+:::
+
+
+## Few undergrads pay  GPT-4 {auto-animate="true"}
+
+
+![](images/gpt-load-data.jpeg)
+
+
+## Teachers & Students {auto-animate="true"}
+
+
+::: {.fragment .fade-in}
+- Learn to verify information from LLM
+:::
+
+::: {.fragment .fade-in}
+- Most student will use free web-based LLM 
+::: 
