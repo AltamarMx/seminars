@@ -1,0 +1,50 @@
+---
+title: "Monitoreo de un edificio bioclimático para ahorro de energía"
+subtitle: "Guillermo Barrios del Valle <br>
+Instituto de Energías Renovables, UNAM <br> [altamarmx.github.io](https://altamarmx.github.io)"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    logo: img/memo.png
+    css: styles.css
+    footer: Seminario de Estudiantes de Ciencias de Morelos
+lang: es
+---
+
+
+## El edificio bioclimático 
+![](img/edificio02.jpeg)
+
+
+## Donde estamos ?
+
+
+```{python} 
+from ipyleaflet import Map, basemaps, Marker, LayersControl
+
+center = [18.840414722876, -99.23455427694917 ]
+zoom = 18
+
+m = Map(basemap=basemaps.OpenStreetMap.Mapnik, center=center, zoom=zoom)
+marker1 = Marker(name='Edificio', location=(18.8404147228768, -99.23455427694917 ))
+m.add(marker1)
+
+
+control = LayersControl(position='topright')
+
+m.add(control)
+```
+
+## ¿ Cómo se ve hoy ?
+
+
+![Edificio Hoy](img/real.jpeg) 
+
+
+
+## Temixco, Morelos, México
+
+
