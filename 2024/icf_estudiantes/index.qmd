@@ -14,9 +14,87 @@ format:
 lang: es
 ---
 
+## Edificaciones y GEI
+
+ 
+:::: {.columns}
+
+::: {.column width="65%"}
+
+![](img/emissions_sector.webp)
+
+:::
+ 
+::: {.column width="35%"}
+### México
+
+- 20% energía del sector edificación 
+- 15%  emisiones sector energía
+- Cambio climático
+- 90%  tiempo en edificaciones
+ 
+:::
+
+::::
+
+
+ 
+## Literacidad energética  
+
+:::: {.columns}
+
+::: {.column width="65%"} 
+
+![](img/energy_literacy.jpeg)
+
+:::
+::: {.column width="35%"}
+### 
+Generar conocimiento para que la gente lo haga suyo y actue en consecuencia
+
+ ![](img/qrcode_literacidad.png){.absolute top="350" left="680" height="260"}
+:::
+::::
+
+::: footer
+Aprende más de  [Luisa Ruiz](https://www.instagram.com/luisaaruiiz/)
+:::
+
+
+
+
+
+## Contar historias con datos
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+![](img/Declutter_EmisionesCO2_Benjamin.png)
+
+:::
+::: {.column width="35%"}
+### 
+Representar de manera gráfica datos para contar historias y transmitir conocimiento
+ ![](img/qrcode_enerdata.png){.absolute top="350" left="680" height="260"}
+:::
+::::
+
+::: footer
+Aprende más de  [EnerData](https://www.instagram.com/ener.data/)
+:::
+
+
+
+
+
+
+
+
+
 
 ## El edificio bioclimático 
-![](img/edificio02.jpeg)
+![](img/edificio02.jpeg){width=50}
 
 
 ## Donde estamos ?
@@ -46,5 +124,14 @@ m.add(control)
 
 
 ## Temixco, Morelos, México
+
+{{< embed 001_temixco.ipynb#fig-temixco-to >}}
+ 
+
+## Temixco, Morelos, México 
+
+{{< embed 002_temixco_calplot.ipynb#fig-to-calplot >}}
+
+
 
 
