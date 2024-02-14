@@ -7,7 +7,7 @@ format:
     slide-number: true
     chalkboard: 
       buttons: false
-    preview-links: auto
+    preview-links: true
     logo: img/memo.png
     css: styles.css
     footer: Seminario de Estudiantes de Ciencias de Morelos
@@ -75,7 +75,7 @@ Aprende más de  [Luisa Ruiz](https://www.instagram.com/luisaaruiiz/)
 :::
 ::: {.column width="35%"}
 ### 
-Representar de manera gráfica datos para contar historias y transmitir conocimiento
+Representar de manera gráfica datos y contar historias para transmitir conocimiento
  ![](img/qrcode_enerdata.png){.absolute top="350" left="680" height="260"}
 :::
 ::::
@@ -90,15 +90,11 @@ Aprende más de  [EnerData](https://www.instagram.com/ener.data/)
 
 
 
-
-
-
 ## El edificio bioclimático 
 ![](img/edificio02.jpeg){width=50}
 
 
 ## Donde estamos ?
-
 
 ```{python} 
 from ipyleaflet import Map, basemaps, Marker, LayersControl
@@ -120,18 +116,202 @@ m.add(control)
 
 
 ![Edificio Hoy](img/real.jpeg) 
-
-
-
-## Temixco, Morelos, México
-
-{{< embed 001_temixco.ipynb#fig-temixco-to >}}
  
 
-## Temixco, Morelos, México 
+ 
+## Temperaturas altas
+
+{{< embed 001_temixco.ipynb#fig-temixco-to  >}} 
+
+::: footer
+:::
+ 
+
+## Temperaturas máximas diarias 
 
 {{< embed 002_temixco_calplot.ipynb#fig-to-calplot >}}
 
+## Irradiancia diaria 
+
+{{< embed 002_temixco_calplot.ipynb#fig-ig-calplot >}}
+
+
+## Vientos dominantes 
 
 
 
+:::: {.columns}
+
+::: {.column width="50%"} 
+ 
+{{< embed 002_temixco_calplot.ipynb#fig-windrose-dia >}}
+::: 
+
+::: {.column width="50%"}
+{{< embed 002_temixco_calplot.ipynb#fig-windrose-noche >}}
+:::
+
+::::
+
+
+
+
+
+
+## Estrategias bioclimáticas 
+:::: {.columns}
+
+::: {.column width="60%"} 
+ 
+![](img/edificio_corte.png){width="800"}
+::: 
+
+::: {.column width="40%"}
+- Orientación
+- Protecciones solares
+- Ventilación natural
+- Color exteriores
+- Masa térmica
+- Enfriamiento evaporativo
+- Enfriamiento radiativo
+:::
+
+::::
+
+
+
+
+## ¿Por qué medimos? 
+{{< video https://www.youtube.com/watch?v=BW9FbjjkKo4
+ width="1280"   
+ height="600" 
+>}}
+
+
+
+## ¿Por qué medimos Parte 2? 
+:::: {.columns}
+
+::: {.column width="60%"} 
+ 
+![](img/why_measure.webp)
+::: 
+
+::: {.column width="40%"}
+<br>
+<br>
+<br>
+
+- Lab viviente
+- Alfabetización bioclimática
+:::
+
+::::
+
+
+
+
+## Dispositivos y variables
+
+:::: {.columns}
+
+::: {.column width="50%"} 
+ - DTHIS
+    - Temperatura
+    - Humedad relativa
+    - Niveles sonoros
+    - CO2 
+    - Mapas de luminancia
+- DH2O
+    - Baños, Labs, Cocina
+::: 
+
+::: {.column width="50%"}
+ - Energía eléctrica
+    - Iluminación
+    - Equipo
+    - Enchufes
+- Ventanas y ventilas
+    - Nivel apertura
+- DTHIS-Campaña
+:::
+
+::::
+
+
+
+
+## Dispositivos 
+Software y hardware libre, documentar, liberar, repetir.
+
+:::: {.columns}
+::: {.column width="60%"}
+![](img/opensource.webp)
+:::
+::: {.column width="40%"} 
+- Arduino
+- Python, microPython
+- Raspberry Pi
+- ThingsBoard
+- GitHub
+- KiCAD
+- PlayingWithFusion, ModernDevices...
+::: 
+
+::::
+
+:::: footer
+::::
+
+
+
+
+## DTHIS 
+
+:::: {.columns}
+::: {.column width="45%"}
+![](img/luminancia.jpg)
+:::
+::: {.column width="55%"} 
+![](img/dthis.jpeg)
+::: 
+
+::::
+
+:::: footer
+::::
+
+
+## DH2O
+
+:::: {.columns}
+::: {.column width="45%"}
+![](img/dh2o.jpeg){width="450"} 
+:::
+::: {.column width="55%"} 
+![](img/esp8266.jpg){width="250"} 
+::: 
+
+::::
+
+:::: footer
+::::
+
+
+## DFP-10
+
+:::: {.columns}
+::: {.column width="60%"}
+![](img/dfp.jpeg) 
+:::
+::: {.column width="40%"} 
+- uno
+- second
+- third
+
+::: 
+
+::::
+
+:::: footer
+::::
