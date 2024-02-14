@@ -6,13 +6,59 @@ format:
   revealjs: 
     slide-number: true
     chalkboard: 
-      buttons: false
+      buttons: false 
     preview-links: true
     logo: img/memo.png
     css: styles.css
     footer: Seminario de Estudiantes de Ciencias de Morelos
 lang: es
 ---
+
+## Participantes 
+
+  
+:::: {.columns}
+
+::: {.column width="55%"}
+{{< embed 003_wordcloud.ipynb#fig-wordcloud >}}
+
+:::
+ 
+::: {.r-fit-text .column width="40%" }
+
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br> 
+
+Guillermo Ramirez,
+Mariana Lopez,
+Jose Escobar,
+Edgar Gallardo,
+Uriel Rodriguez,
+Giovanni Velazquez,
+Julio Landa,
+Diego Salgado,
+Miguel Gaspar,
+Fernando de Olarte,
+Marco Morales,
+Oliver Stif,
+Abraham Gonzalez,
+Jose Rodriguez,
+Victor Zamora,
+Hector Cortes,
+Gonzalo Gaona,
+Debra Lopez...
+ 
+:::
+
+::::
+
+
+
+
 
 ## Edificaciones y GEI
 
@@ -94,7 +140,7 @@ Aprende más de  [EnerData](https://www.instagram.com/ener.data/)
 ![](img/edificio02.jpeg){width=50}
 
 
-## Donde estamos ?
+## ¿Dónde estamos ?
 
 ```{python} 
 from ipyleaflet import Map, basemaps, Marker, LayersControl
@@ -112,10 +158,15 @@ control = LayersControl(position='topright')
 m.add(control)
 ```
 
-## ¿ Cómo se ve hoy ?
+## ¿Cómo se ve hoy?
 
 
 ![Edificio Hoy](img/real.jpeg) 
+
+## ¿Cómo se ve hoy?
+
+
+![Alumnes](img/alumnes.png){.lightbox}
  
 
  
@@ -127,13 +178,17 @@ m.add(control)
 :::
  
 
-## Temperaturas máximas diarias 
+
+
+## Temperaturas máximas e irradiancia solar diaria
+ 
 
 {{< embed 002_temixco_calplot.ipynb#fig-to-calplot >}}
-
+{{< embed 002_temixco_calplot.ipynb#fig-ig-calplot >}}
+<!-- 
 ## Irradiancia diaria 
 
-{{< embed 002_temixco_calplot.ipynb#fig-ig-calplot >}}
+{{< embed 002_temixco_calplot.ipynb#fig-ig-calplot >}} -->
 
 
 ## Vientos dominantes 
@@ -158,15 +213,19 @@ m.add(control)
 
 
 
-## Estrategias bioclimáticas 
+## Estrategias bioclimáticas y de bajo consumo energía
 :::: {.columns}
 
-::: {.column width="60%"} 
+::: {.column width="65%"} 
  
-![](img/edificio_corte.png){width="800"}
+![](img/edificio_corte.png) 
 ::: 
 
-::: {.column width="40%"}
+::: {.r-fit-text .column width="35%"}
+<br>
+<br>
+<br>
+
 - Orientación
 - Protecciones solares
 - Ventilación natural
@@ -209,6 +268,22 @@ m.add(control)
 ::::
 
 
+
+## ¿Dónde desarrollamos esto? 
+::::{.columns}
+
+:::{.column width="50%"}
+<br>
+<br>
+<br>
+  
+ [LATA+](https://lata-mas.github.io/)
+:::
+
+:::{.column width="50%"}
+![](img/qrcode_lata.png)
+:::
+::::
 
 
 ## Dispositivos y variables
@@ -304,14 +379,118 @@ Software y hardware libre, documentar, liberar, repetir.
 ::: {.column width="60%"}
 ![](img/dfp.jpeg) 
 :::
-::: {.column width="40%"} 
-- uno
-- second
-- third
+::: {.r-fit-text .column width="40%"} 
 
+- Categorías: iluminación, enchufes, equipos, computo...
+- Factor de potencia, balance, eficiencia...
+- Perfil de consumo de edificaciones escolares
 ::: 
 
 ::::
 
-:::: footer
+
+## Ventilas y ventanas
+
+:::: {.columns}
+::: {.column width="50%"}
+![](img/ventilas.jpeg) 
+:::
+::: {.r-fit-text .column width="50%"} 
+
+![](img/ventanas.jpeg) 
+::: 
+
+::::
+
+
+
+## IoT: ThingsBoard
+
+![](img/thinbsboard.jpeg) 
+
+
+
+
+
+
+
+## Monitor CO2
+
+::: {.columns}
+::: {.column width="50%"}
+![](img/monitorCO2.jpeg) 
+:::
+
+::: {.column .r-fit-text width="50%"}
+- Hardware y software abierto
+- Bajo costo 
+- Error < 50 ppm 
+- Flexibilidad de usar 3 sensores NDIR
+- Listo para conectarse a IoT
+- Batería USB opcional
+- Lectura promedio del último minuto
+- LED RGB
+- Buzzer
+- Pantalla 3 dígitos
+- Prueba de sensor, LED, pantalla, buzzer al ensamblado
+- Modo de configuración de WiFi
+
+
+:::
+
+:::
+
+
+
+## Reloj para encuestas de confort térmico
+
+::: {.columns}
+::: {.column width="45%"}
+![](img/reloj.jpg) 
+:::
+
+::: {.column width="55%"}
+
+<br>
+
+- Ecosistema DTHIS 
+- Digitaliza encuestas 
+- Recordatorios
+- Alfabetización bioclimática
+
+
+:::
+
+:::
+
+
+
+
+
+## Tableros 
+
+![](img/dashboard_energy.jpeg) 
+
+
+
+## Gracias a ... 
+
+:::: {.columns}
+
+:::{.column width='50%'}
+
+:::{.incremental }
+![](img/technologies.webp)
+:::
+:::
+
+:::{.column width="50%"}
+:::{.incremental }
+- Uds por la invitación y atención 
+- A mis Studs por divertirse conmigo
+- Python, Quarto, Git, Linux, MicroPython, Arduino, KiCAD, Fritzing, esp8266
+:::
+:::
+
+
 ::::
