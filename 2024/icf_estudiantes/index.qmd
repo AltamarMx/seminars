@@ -33,6 +33,7 @@ lang: es
 <br>
 <br> 
 
+Kevin Alquicira,
 Guillermo Ramirez,
 Mariana Lopez,
 Jose Escobar,
