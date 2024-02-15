@@ -60,6 +60,48 @@ Debra Lopez...
 
 
 
+## No les voy a hablar de ...
+
+<br>
+
+
+:::: {.columns }
+
+:::{.column width='50%' .incremental}
+- Metodologías de prototipado
+- Programación 
+- Calibración 
+- Simulaciones de edificaciones 
+- Confort térmico
+:::
+
+:::{.column width='50%' .incremental}
+- Iluminacion natural
+- Trabajo colaborativo
+- Linux
+- Buenas prácticas 
+- Café
+:::
+::::
+
+
+
+
+## Si les voy a hablar de ...
+:::: {.columns }
+
+<br>
+<br>
+<br>
+
+:::{.column width='100%' .incremental .center}
+- Pasiones
+- Trabajo multidisciplinario 
+:::
+
+::::
+
+
 
 
 ## Edificaciones y GEI
