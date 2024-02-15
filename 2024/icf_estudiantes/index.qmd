@@ -35,6 +35,7 @@ lang: es
 
 Kevin Alquicira, 
 Guillermo Ramirez,
+Benjamin Santamaria,
 Mariana Lopez,
 Jose Escobar,
 Edgar Gallardo,
@@ -481,7 +482,7 @@ Software y hardware libre, documentar, liberar, repetir.
 :::{.column width='50%'}
 
 :::{.incremental }
-![](img/technologies.webp)
+![](img/technologies.webp) 
 :::
 :::
 
@@ -489,7 +490,7 @@ Software y hardware libre, documentar, liberar, repetir.
 :::{.incremental }
 - Uds por la invitación y atención 
 - A mis Studs por divertirse conmigo
-- Python, Quarto, Git, Linux, MicroPython, Arduino, KiCAD, Fritzing, esp8266
+- Python, Quarto, Git, Linux, MicroPython, Arduino, KiCAD, Fritzing, esp8266 
 :::
 :::
 
