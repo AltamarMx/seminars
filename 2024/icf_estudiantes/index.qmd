@@ -33,7 +33,7 @@ lang: es
 <br>
 <br> 
 
-Kevin Alquicira,
+Kevin Alquicira, 
 Guillermo Ramirez,
 Mariana Lopez,
 Jose Escobar,
@@ -225,15 +225,15 @@ m.add(control)
 ::: {.r-fit-text .column width="35%"}
 <br>
 <br>
-<br>
 
 - Orientación
 - Protecciones solares
 - Ventilación natural
-- Color exteriores
+- Color exterior
 - Masa térmica
 - Enfriamiento evaporativo
 - Enfriamiento radiativo
+- Ventilación forzada
 :::
 
 ::::
@@ -269,7 +269,7 @@ m.add(control)
 ::::
 
 
-
+<!-- 
 ## ¿Dónde desarrollamos esto? 
 ::::{.columns}
 
@@ -284,7 +284,7 @@ m.add(control)
 :::{.column width="50%"}
 ![](img/qrcode_lata.png)
 :::
-::::
+:::: -->
 
 
 ## Dispositivos y variables
