@@ -1,0 +1,540 @@
+---
+title: "Monitoreo de un edificio bioclimático para ahorro de energía"
+subtitle: "Guillermo Barrios del Valle <br>
+Instituto de Energías Renovables, UNAM <br> [altamarmx.github.io](https://altamarmx.github.io)"
+format:
+  revealjs: 
+    slide-number: true
+    chalkboard: 
+      buttons: false 
+    preview-links: true
+    logo: img/memo.png
+    css: styles.css
+    footer: Seminario de Maestría de Sistemas Embebidos -
+lang: es
+---
+
+## Participantes 
+
+  
+:::: {.columns}
+
+::: {.column width="55%"}
+{{< embed 003_wordcloud.ipynb#fig-wordcloud >}}
+
+:::
+ 
+::: {.r-fit-text .column width="40%" }
+
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br> 
+
+Kevin Alquicira, 
+Guillermo Ramirez,
+Benjamin Santamaria,
+Mariana Lopez,
+Jose Escobar,
+Edgar Gallardo,
+Uriel Rodriguez,
+Giovanni Velazquez,
+Julio Landa,
+Diego Salgado,
+Miguel Gaspar,
+Fernando de Olarte,
+Marco Morales,
+Oliver Stif,
+Abraham Gonzalez,
+Jose Rodriguez,
+Victor Zamora,
+Hector Cortes,
+Gonzalo Gaona,
+Debra Lopez...
+ 
+:::
+
+::::
+
+
+
+## No les voy a hablar de ...
+
+<br>
+
+
+:::: {.columns }
+
+:::{.column width='50%' .incremental}
+- Metodologías de prototipado
+- Programación 
+- Calibración 
+- Simulaciones de edificaciones 
+- Confort térmico
+:::
+
+:::{.column width='50%' .incremental}
+- Iluminacion natural
+- Trabajo colaborativo
+- Linux
+- Buenas prácticas 
+- Café
+:::
+::::
+
+
+
+
+## Si les voy a hablar de ...
+:::: {.columns }
+
+<br>
+<br>
+<br>
+
+:::{.column width='100%' .incremental .center}
+- Pasiones
+- Trabajo multidisciplinario 
+:::
+
+::::
+
+
+
+
+## Edificaciones y GEI
+
+ 
+:::: {.columns}
+
+::: {.column width="65%"}
+
+![](img/emissions_sector.webp)
+
+:::
+ 
+::: {.column width="35%"}
+### México
+
+- 20% energía del sector edificación 
+- 15%  emisiones sector energía
+- Cambio climático
+- 90%  tiempo en edificaciones
+ 
+:::
+
+::::
+
+
+ 
+## Literacidad energética  
+
+:::: {.columns}
+
+::: {.column width="65%"} 
+
+![](img/energy_literacy.jpeg)
+
+:::
+::: {.column width="35%"}
+### 
+Generar conocimiento para que la gente lo haga suyo y actue en consecuencia
+
+ ![](img/qrcode_literacidad.png){.absolute top="350" left="680" height="260"}
+:::
+::::
+
+::: footer
+Aprende más de  [Luisa Ruiz](https://www.instagram.com/luisaaruiiz/)
+:::
+
+
+
+
+
+## Contar historias con datos
+
+:::: {.columns}
+
+::: {.column width="65%"}
+
+![](img/Declutter_EmisionesCO2_Benjamin.png)
+
+:::
+::: {.column width="35%"}
+### 
+Representar de manera gráfica datos y contar historias para transmitir conocimiento
+ ![](img/qrcode_enerdata.png){.absolute top="350" left="680" height="260"}
+:::
+::::
+
+::: footer
+Aprende más de  [EnerData](https://www.instagram.com/ener.data/)
+:::
+
+
+
+
+
+
+
+## El edificio bioclimático 
+![](img/edificio02.jpeg){width=50}
+
+
+## ¿Dónde estamos ?
+
+```{python} 
+from ipyleaflet import Map, basemaps, Marker, LayersControl
+
+center = [18.840414722876, -99.23455427694917 ]
+zoom = 18
+
+m = Map(basemap=basemaps.OpenStreetMap.Mapnik, center=center, zoom=zoom)
+marker1 = Marker(name='Edificio', location=(18.8404147228768, -99.23455427694917 ))
+m.add(marker1)
+
+
+control = LayersControl(position='topright')
+
+m.add(control)
+```
+
+## ¿Cómo se ve hoy?
+
+
+![Edificio Hoy](img/real.jpeg) 
+
+## ¿Cómo se ve hoy?
+
+
+![Alumnes](img/alumnes.png){.lightbox}
+ 
+
+ 
+## Temperaturas altas
+
+{{< embed 001_temixco.ipynb#fig-temixco-to  >}} 
+
+::: footer
+:::
+ 
+
+
+
+## Temperaturas máximas e irradiancia solar diaria
+ 
+
+{{< embed 002_temixco_calplot.ipynb#fig-to-calplot >}}
+{{< embed 002_temixco_calplot.ipynb#fig-ig-calplot >}}
+<!-- 
+## Irradiancia diaria 
+
+{{< embed 002_temixco_calplot.ipynb#fig-ig-calplot >}} -->
+
+
+## Vientos dominantes 
+
+
+
+:::: {.columns}
+
+::: {.column width="50%"} 
+ 
+{{< embed 002_temixco_calplot.ipynb#fig-windrose-dia >}}
+::: 
+
+::: {.column width="50%"}
+{{< embed 002_temixco_calplot.ipynb#fig-windrose-noche >}}
+:::
+
+::::
+
+
+
+
+
+
+## Estrategias bioclimáticas y de bajo consumo energía
+:::: {.columns}
+
+::: {.column width="65%"} 
+ 
+![](img/edificio_corte.png) 
+::: 
+
+::: {.r-fit-text .column width="35%"}
+<br>
+<br>
+
+- Orientación
+- Protecciones solares
+- Ventilación natural
+- Color exterior
+- Masa térmica
+- Enfriamiento evaporativo
+- Enfriamiento radiativo
+- Ventilación forzada
+:::
+
+::::
+
+
+
+
+## ¿Por qué medimos? 
+{{< video https://www.youtube.com/watch?v=BW9FbjjkKo4
+ width="1280"   
+ height="600" 
+>}}
+
+
+
+## ¿Por qué medimos Parte 2? 
+:::: {.columns}
+
+::: {.column width="60%"} 
+ 
+![](img/why_measure.webp)
+::: 
+
+::: {.column width="40%"}
+<br>
+<br>
+<br>
+
+- Lab viviente
+- Alfabetización bioclimática
+:::
+
+::::
+
+
+<!-- 
+## ¿Dónde desarrollamos esto? 
+::::{.columns}
+
+:::{.column width="50%"}
+<br>
+<br>
+<br>
+  
+ [LATA+](https://lata-mas.github.io/)
+:::
+
+:::{.column width="50%"}
+![](img/qrcode_lata.png)
+:::
+:::: -->
+
+
+## Dispositivos y variables
+
+:::: {.columns}
+
+::: {.column width="50%"} 
+ - DTHIS
+    - Temperatura
+    - Humedad relativa
+    - Niveles sonoros
+    - CO2 
+    - Mapas de luminancia
+- DH2O
+    - Baños, Labs, Cocina
+::: 
+
+::: {.column width="50%"}
+ - Energía eléctrica
+    - Iluminación
+    - Equipo
+    - Enchufes
+- Ventanas y ventilas
+    - Nivel apertura
+- DTHIS-Campaña
+:::
+
+::::
+
+
+
+
+## Dispositivos 
+Software y hardware libre, documentar, liberar, repetir.
+
+:::: {.columns}
+::: {.column width="60%"}
+![](img/opensource.webp)
+:::
+::: {.column width="40%"} 
+- Arduino
+- Python, microPython
+- Raspberry Pi
+- ThingsBoard
+- GitHub
+- KiCAD
+- PlayingWithFusion, ModernDevices...
+::: 
+
+::::
+
+:::: footer
+::::
+
+
+
+
+## DTHIS 
+
+:::: {.columns}
+::: {.column width="45%"}
+![](img/luminancia.jpg)
+:::
+::: {.column width="55%"} 
+![](img/dthis.jpeg)
+::: 
+
+::::
+
+:::: footer
+::::
+
+
+## DH2O
+
+:::: {.columns}
+::: {.column width="45%"}
+![](img/dh2o.jpeg){width="450"} 
+:::
+::: {.column width="55%"} 
+![](img/esp8266.jpg){width="250"} 
+::: 
+
+::::
+
+:::: footer
+::::
+
+
+## DFP-10
+
+:::: {.columns}
+::: {.column width="60%"}
+![](img/dfp.jpeg) 
+:::
+::: {.r-fit-text .column width="40%"} 
+
+- Categorías: iluminación, enchufes, equipos, computo...
+- Factor de potencia, balance, eficiencia...
+- Perfil de consumo de edificaciones escolares
+::: 
+
+::::
+
+
+## Ventilas y ventanas
+
+:::: {.columns}
+::: {.column width="50%"}
+![](img/ventilas.jpeg) 
+:::
+::: {.r-fit-text .column width="50%"} 
+
+![](img/ventanas.jpeg) 
+::: 
+
+::::
+
+
+
+## IoT: ThingsBoard
+
+![](img/thinbsboard.jpeg) 
+
+
+
+
+
+
+
+## Monitor CO2
+
+::: {.columns}
+::: {.column width="50%"}
+![](img/monitorCO2.jpeg) 
+:::
+
+::: {.column .r-fit-text width="50%"}
+- Hardware y software abierto
+- Bajo costo 
+- Error < 50 ppm 
+- Flexibilidad de usar 3 sensores NDIR
+- Listo para conectarse a IoT
+- Batería USB opcional
+- Lectura promedio del último minuto
+- LED RGB
+- Buzzer
+- Pantalla 3 dígitos
+- Prueba de sensor, LED, pantalla, buzzer al ensamblado
+- Modo de configuración de WiFi
+
+
+:::
+
+:::
+
+
+
+## Reloj para encuestas de confort térmico
+
+::: {.columns}
+::: {.column width="45%"}
+![](img/reloj.jpg) 
+:::
+
+::: {.column width="55%"}
+
+<br>
+
+- Ecosistema DTHIS 
+- Digitaliza encuestas 
+- Recordatorios
+- Alfabetización bioclimática
+
+
+:::
+
+:::
+
+
+
+
+
+## Tableros 
+
+![](img/dashboard_energy.jpeg) 
+
+
+
+## Gracias a ... 
+
+:::: {.columns}
+
+:::{.column width='50%'}
+
+:::{.incremental }
+![](img/technologies.webp) 
+:::
+:::
+
+:::{.column width="50%"}
+:::{.incremental }
+- Uds por la invitación y atención 
+- A mis Studs por divertirse conmigo
+- Python, Quarto, Git, Linux, MicroPython, Arduino, KiCAD, Fritzing, esp8266 
+:::
+:::
+
+
+::::
