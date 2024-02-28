@@ -10,7 +10,7 @@ format:
     preview-links: true
     logo: img/memo.png
     css: styles.css
-    footer: Seminario de Maestría de Sistemas Embebidos -
+    footer: Seminario de Maestría de Sistemas Embebidos - INFOTEC
 lang: es
 ---
 
@@ -97,6 +97,7 @@ Debra Lopez...
 :::{.column width='100%' .incremental .center}
 - Pasiones
 - Trabajo multidisciplinario 
+- Trabajo futuro
 :::
 
 ::::
